@@ -6,10 +6,10 @@ function Header() {
   return (
     <div className='header'>
 
-      <a href="#" className='logo'>Dzuwagleam</a>
+      <a href="#" class='logo'>Dzuwagleam</a>
 
 
-     <nav className='navbar'>
+     <nav class='navbar'>
      <a href="#" >Home</a>
      <a href="#" >About</a>
      <a href="#" >Services</a>
@@ -18,7 +18,7 @@ function Header() {
 
      </nav>
 
-      
+      <div id="menu-btn" class="fas fa-bars"></div>
     </div>
   )
 }

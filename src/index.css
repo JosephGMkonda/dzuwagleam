@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 :root{
-    --color-bg: #FFFFFF;
+    
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -30,7 +30,7 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    
 
 }
 

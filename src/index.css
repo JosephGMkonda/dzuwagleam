@@ -50,3 +50,24 @@ section{
 section > h2, section > h5{
     text-align: center;
 }
+
+/* ============ media queries (medium devices) */
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 6rem;
+    }
+    
+}
+
+
+/* ============ media queries (small devices) */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    
+    
+}

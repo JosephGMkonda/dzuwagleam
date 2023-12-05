@@ -1,6 +1,7 @@
 
 import React from 'react'
 import './header.css'
+import { AiOutlineAlignLeft } from "react-icons/ai";
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
       <a href="#" class='logo'>Dzuwagleam</a>
 
 
-     <nav class='navbar'>
+     <nav className='navbar'>
      <a href="#" >Home</a>
      <a href="#" >About</a>
      <a href="#" >Services</a>
@@ -17,8 +18,9 @@ function Header() {
      <a href="#">Contact Us</a>
 
      </nav>
+     <AiOutlineAlignLeft />
 
-      <div id="menu-btn" class="fas fa-bars"></div>
+      
     </div>
   )
 }
